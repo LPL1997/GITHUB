@@ -1,0 +1,5 @@
+
+SELECT *
+FROM FN_RetornoLadeiraMaster
+WHERE CPF IN (SELECT CPF_CNPJ 
+FROM FN_BaseWHATS)
